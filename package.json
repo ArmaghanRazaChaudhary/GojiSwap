@@ -1,0 +1,21 @@
+{
+  "name": "gojiswap-contracts",
+  "version": "2.0.0",
+  "private": true,
+  "description": "GojiSwap staking, farming, token locker and voting contracts",
+  "author": "M. Armaghan Raza",
+  "license": "MIT",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@openzeppelin/contracts": "5.1.0",
+    "chai": "^4.5.0",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.17"
+  }
+}
